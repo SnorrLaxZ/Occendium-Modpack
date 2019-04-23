@@ -1,0 +1,16 @@
+{
+  "astralsorcery:root": {
+    "criteria": {
+      "astralsorcery_present": "2019-04-23 18:10:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "beaches": "2019-04-23 18:11:28 +0200",
+      "plains": "2019-04-23 18:10:32 +0200",
+      "roofed_forest": "2019-04-23 18:11:30 +0200"
+    },
+    "done": false
+  }
+}
