@@ -1,9 +1,10 @@
-# Occendium | Version 0.1
+# Occendium | Version 0.1 | [Discord](https://discord.gg/sqBs2gA "Discord")
 ###### The Modpack Occendium | A Minecraft technology and magic modpack, focused around PVP.
 
 ### Info
 ---
 Modpack is currently being made by SnorrLaxZ with little help from his friends.
+
 
 
 Inspired by Sevtech Ages, Crackpack and heaps of other modpacks.
