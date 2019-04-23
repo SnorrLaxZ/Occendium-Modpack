@@ -1,5 +1,5 @@
-# Occendium | Version 0.1 | [Discord](https://discord.gg/sqBs2gA "Discord")
-###### The Modpack Occendium | A Minecraft technology and magic modpack, focused around PVP.
+# Occidendum | Version 0.1 | [Discord](https://discord.gg/sqBs2gA "Discord")
+###### The Modpack Occidendum| A Minecraft technology and magic modpack, focused around PVP.
 
 ### Info
 ---
