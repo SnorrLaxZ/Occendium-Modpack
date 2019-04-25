@@ -1,0 +1,16 @@
+Header=You have [AllocatedMemory]MB of memory allocated. />Font:Yu Gothic UI Light />FontType:normal />FontSize:30 />Color:0, 0, 0, 255
+
+Line1WhenOptimalMemory=You have more than [RecommendedMemory]MB, are you ready to kill? />Font:Yu Gothic UI Light />FontType:normal />FontSize:30 />Color:3, 210, 0, 255
+
+Line1WhenNonoptimalMemory=Recommended Amount is [RecommendedMemory]MB to run. Consider using [RecommendedMemory-AllocatedMemory] more. />Font:Yu Gothic UI Light />FontType:normal />FontSize:30 />Color:255, 9, 0, 255
+
+ButtonStartText=I'm ready.
+
+ButtonStartBgColor=3, 210, 0, 255
+
+ButtonQuitText=I'm not ready.
+
+ButtonQuitBgColor=255, 9, 0, 255
+
+BackgroundImageDir=resources/backgroundImage.png
+
