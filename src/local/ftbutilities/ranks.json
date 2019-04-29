@@ -12,7 +12,13 @@
         "-ftbu.display.admin_info",
         "+ftbu.display.permissions",
         "+ftbu.display.rank",
-        "-ftbu.misc.allow_interact_secure"
+        "-ftbu.misc.allow_interact_secure",
+        "-command.ftblib.team",
+        "-command.ftbutilities.sethome",
+        "+command.ftbutilities.setwarp",
+        "+command.grandeconomy.balance",
+		"+command.grandeconomy.pay",
+		"-command.grandeconomy.wallet"
       ],
       "config": {
 

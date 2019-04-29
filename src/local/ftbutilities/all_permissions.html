@@ -2571,15 +2571,6 @@ false
 <p>Permission for blocks that players can break and place within claimed chunks</p>
 </td></tr>
 <tr>
-<td><code>ftbutilities.claims.block.edit.openblocks.grave</code></td>
-<td><code>bool</code></td>
-<td class='true' colspan='2'><code>true</code></td>
-<td title='
-true 
-false 
-'>
-</td></tr>
-<tr>
 <td><code>ftbutilities.claims.block.interact</code></td>
 <td><code>bool</code></td>
 <td class='false'><code>false</code></td>
@@ -3444,18 +3435,30 @@ false
 <tr><td><code>command.appliedenergistics2.ae2</code></td><td>Commands provided by Applied Energistics 2 - use /ae2 list for a list, and /ae2 help _____ for help with a command.</td></tr>
 <tr><td><code>command.aroma1997core.aroma1997</code></td><td class='error' title='Invalid usage language key!'>/aroma1997 reloadclient<br>/aroma1997 setupDeathCounter<br>/aroma1997 setupDeathCounter &lt;location&gt;<br>/aroma1997 setupDeathCounter &lt;location&gt; &lt;name&gt;<br>/aroma1997 dimension<br>/aroma1997 tp &lt;dimension&gt;<br>/aroma1997 tp &lt;x&gt; &lt;y&gt; &lt;z&gt;<br>/aroma1997 tp &lt;x&gt; &lt;y&gt; &lt;z&gt; &lt;dimension&gt;<br>/aroma1997 tabcomplete &lt;command&gt;<br>/aroma1997 openGui<br>/aroma1997 debugCrash</td></tr>
 <tr><td><code>command.aroma1997core.sleep</code></td><td class='error' title='Invalid usage language key!'>/sleep</td></tr>
+<tr><td><code>command.aromabackup.save-all</code></td><td>/save-all [flush]</td></tr>
+<tr><td><code>command.aromabackup.save-off</code></td><td>/save-off</td></tr>
+<tr><td><code>command.aromabackup.save-on</code></td><td>/save-on</td></tr>
 <tr><td><code>command.astralsorcery.astralsorcery</code></td><td class='error' title='Invalid usage language key!'>/astralsorcery &lt;action&gt; [player] [arguments...]</td></tr>
+<tr><td><code>command.ban</code></td><td>/ban &lt;name&gt; [reason ...]</td></tr>
+<tr><td><code>command.ban-ip</code></td><td>/ban-ip &lt;address|name&gt; [reason ...]</td></tr>
+<tr><td><code>command.banlist</code></td><td>/banlist [ips|players]</td></tr>
 <tr><td><code>command.baubles.baubles</code></td><td class='error' title='Invalid usage language key!'>/baubles &lt;action&gt; [&lt;player&gt; [&lt;params&gt;]]</td></tr>
+<tr><td><code>command.bdlib.dumpregistry</code></td><td>dumpregistry</td></tr>
+<tr><td><code>command.bdlib.oredistribution</code></td><td>/oredistribution &lt;radius&gt; [&lt;min height&gt;] [&lt;max height&gt;] [--file]</td></tr>
 <tr><td><code>command.betterbuilderswands.wandoops</code></td><td class='error' title='Invalid usage language key!'>/wandOops</td></tr>
+<tr><td><code>command.bettersprinting.bettersprinting</code></td><td class='error' title='Invalid usage language key!'>/bettersprinting [...]</td></tr>
 <tr><td><code>command.biomesoplenty.biomesoplenty</code></td><td>/biomesoplenty &lt;tpbiome|biomename|stripchunk&gt; [args]</td></tr>
 <tr><td><code>command.blockdata</code></td><td>/blockdata &lt;x&gt; &lt;y&gt; &lt;z&gt; &lt;dataTag&gt;</td></tr>
 <tr><td><code>command.brandonscore.bcore_ticktime</code></td><td class='error' title='Invalid usage language key!'>/bcore_ticktime</td></tr>
 <tr><td><code>command.brandonscore.bcore_util</code></td><td class='error' title='Invalid usage language key!'>/bcore_util help</td></tr>
-<tr><td><code>command.buildcraftlib.buildcraft.changelog</code></td><td>Displays the latest BC changelog.</td></tr>
+<tr><td><code>command.buildcraftlib.buildcraft.changelog</code></td><td>command.buildcraft.buildcraft.changelog.help</td></tr>
 <tr><td><code>command.buildcraftlib.buildcraft.reload</code></td><td>command.buildcraft.reload</td></tr>
-<tr><td><code>command.buildcraftlib.buildcraft.version</code></td><td>Displays the current and latest BC version.</td></tr>
+<tr><td><code>command.buildcraftlib.buildcraft.version</code></td><td>command.buildcraft.buildcraft.version.help</td></tr>
 <tr><td><code>command.carryon.carryon</code></td><td class='error' title='Invalid usage language key!'>/carryon &lt;mode&gt;</td></tr>
 <tr><td><code>command.carryon.reloadscripts</code></td><td class='error' title='Invalid usage language key!'>/reloadscripts</td></tr>
+<tr><td><code>command.clans.clan</code></td><td class='error' title='Invalid usage language key!'>/clan [clan] &lt;command&gt; [parameters]</td></tr>
+<tr><td><code>command.clans.opclan</code></td><td class='error' title='Invalid usage language key!'>/opclan &lt;command&gt; [parameters]</td></tr>
+<tr><td><code>command.clans.raid</code></td><td class='error' title='Invalid usage language key!'>/raid &lt;command&gt; [parameters]</td></tr>
 <tr><td><code>command.clear</code></td><td>/clear [player] [item] [data] [maxCount] [dataTag]</td></tr>
 <tr><td><code>command.clone</code></td><td>/clone &lt;x1&gt; &lt;y1&gt; &lt;z1&gt; &lt;x2&gt; &lt;y2&gt; &lt;z2&gt; &lt;x&gt; &lt;y&gt; &lt;z&gt; [maskMode] [cloneMode]</td></tr>
 <tr><td><code>command.cofhcore.cofh</code></td><td class='error' title='Invalid usage language key!'>/cofh help</td></tr>
@@ -3463,7 +3466,6 @@ false
 <tr><td><code>command.cofhworld.cofhworld.reload</code></td><td>Reloads CoFHWorld configuration</td></tr>
 <tr><td><code>command.cofhworld.cofhworld.version</code></td><td>cofhworld.version.usage</td></tr>
 <tr><td><code>command.crafttweaker.crafttweaker</code></td><td class='error' title='Invalid usage language key!'>/crafttweaker biomeTypes | biomes | blockinfo | blocks | bugs | chiselGroups | conflict | copy | discord | docs | dumpzs | enchants | entities | foods | gases | give | hand | help | infuseTypes | inventory | jeiCategories | json | liquids | log | mekrecipes | mods | names | nbt | oredict | potions | recipeNames | recipes | reload | scripts | seeds | syntax | thaumcraftDump | ticmat | wiki | zslint</td></tr>
-<tr><td><code>command.crafttweaker.ctgui</code></td><td class='error' title='Invalid usage language key!'>CTGUI &lt;id&gt;</td></tr>
 <tr><td><code>command.davincisvessels.dvdisassemble</code></td><td class='error' title='Invalid usage language key!'>/dvdisassemble [overwrite<br>drop]</td></tr>
 <tr><td><code>command.davincisvessels.dvdisassemblenear</code></td><td class='error' title='Invalid usage language key!'>/dvdisassemblenear [range]</td></tr>
 <tr><td><code>command.davincisvessels.dvhelp</code></td><td class='error' title='Invalid usage language key!'>/dvhelp<br>/dv?</td></tr>
@@ -3471,11 +3473,17 @@ false
 <tr><td><code>command.davincisvessels.dvtp</code></td><td class='error' title='Invalid usage language key!'>/dvtp</td></tr>
 <tr><td><code>command.debug</code></td><td>/debug &lt;start|stop&gt;</td></tr>
 <tr><td><code>command.defaultgamemode</code></td><td>/defaultgamemode &lt;mode&gt;</td></tr>
+<tr><td><code>command.deop</code></td><td>/deop &lt;player&gt;</td></tr>
 <tr><td><code>command.difficulty</code></td><td>/difficulty &lt;new difficulty&gt;</td></tr>
 <tr><td><code>command.draconicevolution.de_reload_custom_fusion</code></td><td class='error' title='Invalid usage language key!'>Usage: /de_reload_custom_fusion</td></tr>
 <tr><td><code>command.draconicevolution.de_upgrade</code></td><td class='error' title='Invalid usage language key!'>/de_upgrade</td></tr>
+<tr><td><code>command.dynmap.dmap</code></td><td class='error' title='Invalid usage language key!'>Run /dmap help for details on using command</td></tr>
+<tr><td><code>command.dynmap.dmarker</code></td><td class='error' title='Invalid usage language key!'>Run /dmarker help for details on using command</td></tr>
+<tr><td><code>command.dynmap.dynmap</code></td><td class='error' title='Invalid usage language key!'>Run /dynmap help for details on using command</td></tr>
+<tr><td><code>command.dynmap.dynmapexp</code></td><td class='error' title='Invalid usage language key!'>Run /dynmapexp help for details on using command</td></tr>
 <tr><td><code>command.effect</code></td><td>/effect &lt;player&gt; &lt;effect&gt; [seconds] [amplifier] [hideParticles]<br>/effect &lt;player&gt; clear</td></tr>
 <tr><td><code>command.enchant</code></td><td>/enchant &lt;player&gt; &lt;enchantment ID&gt; [level]</td></tr>
+<tr><td><code>command.endercore.reloadserverconfigs</code></td><td class='error' title='Invalid usage language key!'>/reloadServerConfigs &lt;modid&gt; (&lt;modid2&gt; &lt;modid3&gt; ...)</td></tr>
 <tr><td><code>command.endercore.scoreboardinfo</code></td><td class='error' title='Invalid usage language key!'>/scoreboardinfo &lt;board&gt; &lt;name&gt;</td></tr>
 <tr><td><code>command.enderstorage.enderstorage.clear</code></td><td class='error' title='Invalid usage language key!'>Provides ability to clear a users EnderStorage.</td></tr>
 <tr><td><code>command.enderstorage.enderstorage.help</code></td><td class='error' title='Invalid usage language key!'>Displays help for /EnderStorage commands.</td></tr>
@@ -3563,6 +3571,7 @@ false
 <tr><td><code>command.ftbutilities.rtp</code></td><td>commands.rtp.usage</td></tr>
 <tr><td><code>command.ftbutilities.sethome</code></td><td>/sethome [home]</td></tr>
 <tr><td><code>command.ftbutilities.setwarp</code></td><td>/setwarp &lt;warp&gt; &lt;player&gt;|{&lt;x&gt; &lt;y&gt; &lt;z&gt; [dim]}</td></tr>
+<tr><td><code>command.ftbutilities.shutdown</code></td><td>/shutdown</td></tr>
 <tr><td><code>command.ftbutilities.spawn</code></td><td>/spawn</td></tr>
 <tr><td><code>command.ftbutilities.tpa</code></td><td>/tpa &lt;player&gt;</td></tr>
 <tr><td><code>command.ftbutilities.tpaccept</code></td><td>/tpaccept &lt;player&gt;</td></tr>
@@ -3574,6 +3583,9 @@ false
 <tr><td><code>command.gamemode</code></td><td>/gamemode &lt;mode&gt; [player]</td></tr>
 <tr><td><code>command.gamerule</code></td><td>/gamerule &lt;rule name&gt; [value]</td></tr>
 <tr><td><code>command.give</code></td><td>/give &lt;player&gt; &lt;item&gt; [amount] [data] [dataTag]</td></tr>
+<tr><td><code>command.grandeconomy.balance</code></td><td class='error' title='Invalid usage language key!'>/balance</td></tr>
+<tr><td><code>command.grandeconomy.pay</code></td><td class='error' title='Invalid usage language key!'>/pay &lt;player&gt; &lt;amount&gt;</td></tr>
+<tr><td><code>command.grandeconomy.wallet</code></td><td class='error' title='Invalid usage language key!'>/wallet &lt;give|take|set|balance&gt; &lt;player&gt; &lt;amount&gt;</td></tr>
 <tr><td><code>command.hats.hats</code></td><td class='error' title='Invalid usage language key!'>/hats           type /hats for full list.</td></tr>
 <tr><td><code>command.help</code></td><td>/help [page|command name]</td></tr>
 <tr><td><code>command.icbmclassic.icbm</code></td><td class='error' title='Invalid usage language key!'>/icbm</td></tr>
@@ -3590,7 +3602,9 @@ false
 <tr><td><code>command.immersiveengineering.ie.mineral.set</code></td><td class='error' title='Invalid usage language key!'>/mineral set &lt;mineral name&gt; (surround the name in &lt;angle brackets&gt; if it contains a space)</td></tr>
 <tr><td><code>command.immersiveengineering.ie.mineral.setdepletion</code></td><td class='error' title='Invalid usage language key!'>/mineral setDepletion &lt;depletion&gt;</td></tr>
 <tr><td><code>command.journeymap.jtp</code></td><td class='error' title='Invalid usage language key!'>/jtp &lt;x y z dim&gt;</td></tr>
+<tr><td><code>command.kick</code></td><td>/kick &lt;player&gt; [reason ...]</td></tr>
 <tr><td><code>command.kill</code></td><td>/kill [player|entity]</td></tr>
+<tr><td><code>command.list</code></td><td>/list</td></tr>
 <tr><td><code>command.locate</code></td><td>/locate &lt;feature&gt;</td></tr>
 <tr><td><code>command.me</code></td><td>/me &lt;action ...&gt;</td></tr>
 <tr><td><code>command.mekanism.mek.chunk.clear</code></td><td>Remove all chunks from watch list for chunk loading/unloading events</td></tr>
@@ -3607,6 +3621,7 @@ false
 <tr><td><code>command.omlib.omchangeowner</code></td><td class='error' title='Invalid usage language key!'>&lt;dimension&gt; &lt;x&gt; &lt;y&gt; &lt;z&gt; &lt;new owner&gt;</td></tr>
 <tr><td><code>command.omlib.omdebug</code></td><td class='error' title='Invalid usage language key!'>/omdebug &lt;on|off&gt;</td></tr>
 <tr><td><code>command.omlib.omshareowner</code></td><td class='error' title='Invalid usage language key!'>'&lt;add|del&gt; &lt;name to share&gt;' or list</td></tr>
+<tr><td><code>command.op</code></td><td>/op &lt;player&gt;</td></tr>
 <tr><td><code>command.openblocks.flimflam</code></td><td class='error' title='Invalid usage language key!'>flimflam &lt;player&gt; [&lt;effect&gt;]</td></tr>
 <tr><td><code>command.openblocks.luck</code></td><td class='error' title='Invalid usage language key!'>luck &lt;player&gt; [&lt;amount&gt;]</td></tr>
 <tr><td><code>command.openblocks.ob_inventory</code></td><td class='error' title='Invalid usage language key!'>ob_inventory store &lt;player&gt;<br>ob_inventory restore &lt;player&gt; &lt;file without 'inventory-' and '.dat'&gt;<br>ob_inventory spawn &lt;file without 'inventory-' and '.dat'&gt; [&lt;sub_inventory<br>'main'&gt;,  [&lt;index of item&gt;]]</td></tr>
@@ -3620,9 +3635,11 @@ om_config_s remove &lt;modid&gt; &lt;category&gt; &lt;name&gt; &lt;value&gt;... 
 om_config_s default &lt;modid&gt; &lt;category&gt; &lt;name&gt; &lt;value&gt;... OR
 </td></tr>
 <tr><td><code>command.openmods.om_source_s</code></td><td class='error' title='Invalid usage language key!'>om_source_s class &lt;class name&gt;</td></tr>
+<tr><td><code>command.pardon</code></td><td>/pardon &lt;name&gt;</td></tr>
+<tr><td><code>command.pardon-ip</code></td><td>/pardon-ip &lt;address&gt;</td></tr>
 <tr><td><code>command.particle</code></td><td>/particle &lt;name&gt; &lt;x&gt; &lt;y&gt; &lt;z&gt; &lt;xd&gt; &lt;yd&gt; &lt;zd&gt; &lt;speed&gt; [count] [mode] [player] [params]</td></tr>
 <tr><td><code>command.playsound</code></td><td>/playsound &lt;sound&gt; &lt;source&gt; &lt;player&gt; [x] [y] [z] [volume] [pitch] [minimumVolume]</td></tr>
-<tr><td><code>command.publish</code></td><td>/publish</td></tr>
+<tr><td><code>command.quark.quarkconfig</code></td><td class='error' title='Invalid usage language key!'>&lt;module&gt; &lt;category&gt; &lt;key&gt; &lt;value&gt; [save?] [player]</td></tr>
 <tr><td><code>command.recipe</code></td><td>/recipe &lt;give|take&gt; [player] &lt;name|*&gt;</td></tr>
 <tr><td><code>command.replaceitem</code></td><td>/replaceitem &lt;entity|block&gt; ...</td></tr>
 <tr><td><code>command.rftools.rftcfg</code></td><td class='error' title='Invalid usage language key!'>rftcfg &lt;subcommand&gt; &lt;args&gt; (try 'rftcfg help' for more info)</td></tr>
@@ -3634,10 +3651,15 @@ om_config_s default &lt;modid&gt; &lt;category&gt; &lt;name&gt; &lt;value&gt;...
 <tr><td><code>command.scoreboard</code></td><td>/scoreboard &lt;objectives|players|teams&gt; ...</td></tr>
 <tr><td><code>command.seed</code></td><td>/seed</td></tr>
 <tr><td><code>command.setblock</code></td><td>/setblock &lt;x&gt; &lt;y&gt; &lt;z&gt; &lt;block&gt; [dataValue|state] [oldBlockHandling] [dataTag]</td></tr>
+<tr><td><code>command.setidletimeout</code></td><td>/setidletimeout &lt;minutes&gt;</td></tr>
 <tr><td><code>command.setworldspawn</code></td><td>/setworldspawn [&lt;x&gt; &lt;y&gt; &lt;z&gt;]</td></tr>
+<tr><td><code>command.shadowmc.shadow.calc</code></td><td class='error' title='Invalid usage language key!'>/shadow calc &lt;expr&gt;</td></tr>
+<tr><td><code>command.shadowmc.shadow.help</code></td><td class='error' title='Invalid usage language key!'>/shadow help &lt;command&gt;</td></tr>
+<tr><td><code>command.shadowmc.shadow.killall</code></td><td class='error' title='Invalid usage language key!'>/shadow killall &lt;range&gt;</td></tr>
 <tr><td><code>command.spawnpoint</code></td><td>/spawnpoint [player] [&lt;x&gt; &lt;y&gt; &lt;z&gt;]</td></tr>
 <tr><td><code>command.spreadplayers</code></td><td>/spreadplayers &lt;x&gt; &lt;z&gt; &lt;spreadDistance&gt; &lt;maxRange&gt; &lt;respectTeams true|false&gt; &lt;player ...&gt;</td></tr>
 <tr><td><code>command.stats</code></td><td>/stats &lt;entity|block&gt; ...</td></tr>
+<tr><td><code>command.stop</code></td><td>/stop</td></tr>
 <tr><td><code>command.stopsound</code></td><td>/stopsound &lt;player&gt; [source] [sound]</td></tr>
 <tr><td><code>command.storagedrawers.storagedrawers</code></td><td>commands.storagedrawers.usage</td></tr>
 <tr><td><code>command.summon</code></td><td>/summon &lt;entityname&gt; [x] [y] [z] [dataTag]</td></tr>
@@ -3663,6 +3685,7 @@ om_config_s default &lt;modid&gt; &lt;category&gt; &lt;name&gt; &lt;value&gt;...
 <tr><td><code>command.trigger</code></td><td>/trigger &lt;objective&gt; &lt;add|set&gt; &lt;value&gt;</td></tr>
 <tr><td><code>command.waila.dumphandlers</code></td><td class='error' title='Invalid usage language key!'>/dumphandlers</td></tr>
 <tr><td><code>command.weather</code></td><td>/weather &lt;clear|rain|thunder&gt; [duration in seconds]</td></tr>
+<tr><td><code>command.whitelist</code></td><td>/whitelist &lt;on|off|list|add|remove|reload&gt;</td></tr>
 <tr><td><code>command.worldborder</code></td><td>/worldborder &lt;set|center|damage|warning|get|add&gt; ...</td></tr>
 <tr><td><code>command.xp</code></td><td>/xp &lt;amount&gt; [player]<br>/xp &lt;amount&gt;L [player]</td></tr>
 </table>
